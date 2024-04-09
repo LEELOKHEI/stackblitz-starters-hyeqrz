@@ -18,11 +18,15 @@
     </nav>
     <main>
       <h1>Home page</h1>
-      <form method="get" action="https://script.google.com/macros/s/AKfycbxPKWuiPTar9GQHXGqIB6gcbjYQJAZviyfRIGf_VKmSARkbS053es51HWEOcVSgC8VfTg/exec">
-        text:<input type="text" name="a"><br>
-        password:<input type="password" name="b"><br>
+      <form
+        id="formid"
+       method="get" 
+       action="https://script.google.com/macros/s/AKfycbxPKWuiPTar9GQHXGqIB6gcbjYQJAZviyfRIGf_VKmSARkbS053es51HWEOcVSgC8VfTg/exec">
+        text:<input type="text" name="a" id="textid"><br>
+        password:<input type="password" name="b" id="passwordid"><br>
         <input type="submit">
       </form>
     </main>
+    <script>document.getElementById('formid').addEventListener('sudmit',</script>
   </body>
 </html>
